@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="web-styles.css">
+        <!--<link rel="stylesheet" type="text/css" href="web-styles-responsive.css">-->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="temp.css">
+        <title> BasicTools </title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1 class="title"> <a href="index.html"> BasicTools </a> </h1>
+            </div>
+            <nav>
+                <div class="ul">
+                    <a href="calculadora.html" class="a"><div class="li"> CALCULADORA </div></a>
+                    <a href="temp.html" class="a"><div class="li"> CONVERSOR DE TEMPERATURA </div></a>
+                    <a href="volumen.html" class="a"><div class="li"> CONVERSOR DE VOLUMEN </div></a>
+                    <a href="valores.html" class="a"><div class="li"> CONVERSOR DE VALORES </div></a>
+                    <a href="distancia.html" class="a"><div class="li"> CONVERSOR DE DISTANCIA </div></a>
+                </div>
+            </nav>
+            
+        </header>
+
+        <main class="temp-main">
+            <div class="temp-converter">
+                <div class="inout-item">
+                    <select class="value-inout" id="select-input">
+                        <option value="celsius" class="temp-options" id="option-celsius"> Celsius </option>
+                        <option value="kelvin" class="temp-options" id="option-kelvin"> Kelvin </option>
+                        <option value="fahrenheit" class="temp-options" id="option-fahrenheit"> Fahrenheit </option>
+                    </select>
+    
+                    <input class="inputs" type="number" value="0" id="first-input" >
+                </div>
+
+                <div class="inout-item">
+                    <select class="value-inout" id="select-output">
+                        <option value="celsius" class="temp-options" id="option-celsius2"> Celsius </option>
+                        <option value="kelvin" class="temp-options" id="option-kelvin2"> Kelvin </option>
+                        <option value="fahrenheit" class="temp-options" id="option-fahrenheit2"> Fahrenheit </option>
+                    </select>
+                
+                    <input class="inputs" type="number" value="0" id="second-input">
+                </div>
+            </div>
+        </main>
+        <script src="JStemperatura.js" type="text/javascript"></script>
+    </body>
+</html>

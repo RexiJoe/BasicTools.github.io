@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="web-styles.css">
+        <link rel="stylesheet" type="text/css" href="volume.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <title id="basictools" > BasicTools | Conversor de Volumen </title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1 class="title"> <a href="index.html"> BasicTools </a> </h1>
+            </div>
+            <nav>
+                <div class="ul">
+                    <a href="calculadora.html" class="a"><div class="li"> CALCULADORA </div></a>
+                    <a href="temp.html" class="a"><div class="li"> CONVERSOR DE TEMPERATURA </div></a>
+                    <a href="volumen.html" class="a"><div class="li"> CONVERSOR DE VOLUMEN </div></a>
+                    <a href="valores.html" class="a"><div class="li"> CONVERSOR DE VALORES </div></a>
+                    <a href="distancia.html" class="a"><div class="li"> CONVERSOR DE DISTANCIA </div></a>
+                </div>
+            </nav>
+            
+        </header>
+        <!-- MODIFICAR ESTO -->
+        <main class="volumen-main">
+            <div class="vol-converter">
+                <div class="inout-item"> 
+                    <select class="value-inout" id="select-input">
+                        <option value="milimetro-c" class="vol-options" id="option-milimetro-c"> Milimetro Cubico </option>
+                        <option value="centimetro-c" class="vol-options" id="option-centimetro-c"> Centimetro Cubico </option>
+                        <option value="decimetro-c" class="vol-options" id="option-decimetro-c"> Decimetro Cubico </option>
+                        <option value="metro-c" class="vol-options" id="option-metro-c"> Metro Cubico </option>
+                        <option value="litro" class="vol-options" id="option-litro"> Litro </option>
+                    </select>
+    
+                    <input class="inputs" type="number" value="0" id="first-input" >
+                </div>
+
+                <div class="inout-item">
+                    <select class="value-inout" id="select-output">
+                        <option value="milimetro-c" class="vol-options" id="option-milimetro-c"> Milimetro Cubico </option>
+                        <option value="centimetro-c" class="vol-options" id="option-centimetro-c"> Centimetro Cubico </option>
+                        <option value="decimetro-c" class="vol-options" id="option-decimetro-c"> Decimetro Cubico </option>
+                        <option value="metro-c" class="vol-options" id="option-metro-c"> Metro Cubico </option>
+                        <option value="litro" class="vol-options" id="option-litro"> Litro </option>
+                    </select>
+                
+                    <input class="inputs" type="number" value="0" id="second-input">
+                </div>
+            </div>
+            <script src="JSvolumen.js"></script>
+        </main>
+    </body>
+</html>
