@@ -4,6 +4,7 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="web-styles.css">
+        <link rel="stylesheet" type="text/css" href="web-styles-responsive.css">
         <link rel="stylesheet" type="text/css" href="volume.css">
         <link rel="stylesheet" type="text/css" href="normalize.css">
         <title id="basictools" > BasicTools | Conversor de Volumen </title>
@@ -13,15 +14,19 @@
             <div class="logo">
                 <h1 class="title"> <a href="index.html"> BasicTools </a> </h1>
             </div>
-            <nav>
+            <svg id="icon-menu" class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="40" width="40">
+                <path d="M5.417 29.375V27.292H34.583V29.375ZM5.417 21.042V18.958H34.583V21.042ZM5.417 12.708V10.625H34.583V12.708Z"/>
+            </svg>
+            <nav id="nav" class="nav nav-hide">
                 <div class="ul">
-                    <a href="calculadora.html" class="a"><div class="li"> CALCULADORA </div></a>
-                    <a href="temp.html" class="a"><div class="li"> CONVERSOR DE TEMPERATURA </div></a>
-                    <a href="volumen.html" class="a"><div class="li"> CONVERSOR DE VOLUMEN </div></a>
-                    <a href="valores.html" class="a"><div class="li"> CONVERSOR DE VALORES </div></a>
-                    <a href="distancia.html" class="a"><div class="li"> CONVERSOR DE DISTANCIA </div></a>
+                        <a href="calculadora.html" class="a"><div class="li"> CALCULADORA </div></a>
+                        <a href="temp.html" class="a"><div class="li"> CONVERSOR DE TEMPERATURA </div></a>
+                        <a href="volumen.html" class="a"><div class="li"> CONVERSOR DE VOLUMEN </div></a>
+                        <a href="valores.html" class="a"><div class="li"> CONVERSOR DE VALORES </div></a>
+                        <a href="distancia.html" class="a"><div class="li"> CONVERSOR DE DISTANCIA </div></a>
                 </div>
             </nav>
+            <script src="JSmenuDesplegable.js"></script>
             
         </header>
         <!-- MODIFICAR ESTO -->

@@ -3,4 +3,9 @@
 .menu-icon{
     display: flex;
 }
+
+.nav-hide{
+    display: none;
+}
+
 }
